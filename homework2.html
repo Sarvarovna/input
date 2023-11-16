@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h1>Travel reservation form</h1>
+        <h3>* denotes mandotory</h3>
+        <span style="font-size: large;">Full name*:</span> <br>
+        <input style="margin-top: 7px;" type="text" placeholder="FirstName LastName" required>
+        <br>
+        <span style="font-size: large;">Email address*:</span> <br>
+        <input style="margin-top: 7px;" type="email" placeholder="EMAIL_ADDRESS" required >
+        <br>
+        <span style="font-size: large;">Select Tour Package*:</span>
+        <br>
+        <select style="margin-top: 7px;">
+            <option value="">Goa</option>
+            <option value="">Romantic goa</option>
+            <option value="">Family goa</option>
+        </select>
+        <br>
+        <span style="font-size: large;">Arrival date*:</span>
+        <br>
+        <input style="margin-top: 7px;" type="text" placeholder="m/d/y" required>
+        <br>
+        <span style="font-size: large;">Number of persons*</span>
+        <br>
+        <input style="margin-top: 7px;" type="number" placeholder="UNKNOWN_TYPE" required>
+        <br>
+        <span style="font-size: large;">What would you want to avail?*</span>
+        <br>
+        <span style="font-size: large">Boarding</span>
+        <input type="checkbox">
+        <br>
+        <span style="font-size: large;">Fooding</span>
+        <input type="checkbox">
+        <br>
+        <span style="font-size: large;">Sight seeing</span>
+        <input type="checkbox">
+        <br>
+        <span style="font-size: large;">Discount Coupon code:</span>
+        <br>
+        <input style="margin-top: 7px;" type="text" placeholder="UNKNOWN_TYPE">
+        <br>
+        <span style="font-size: large;">Terms and conditions*</span>
+        <br>
+        <label style="font-size: large;" for="I agree">I agree</label>
+        <input id="I agree" type="radio" name="agree">
+        <label style="font-size: large;" for="I disagree">I disagree</label>
+        <input id="I disagree" type="radio" name="agree">
+        <br>
+        <input style="margin-top: 7px;" type="button" value="Complete reservation">
+    </form>
+</body>
+</html>

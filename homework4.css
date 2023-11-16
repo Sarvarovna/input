@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 2100px;
+    height: 1000px;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    margin-top: 200px;
+    width: 600px;
+    height: 500px;
+    background-color: #fff;
+    box-shadow: 9px 7px 10px gray;
+}
+
+.input{
+    border: none;
+    width: 460px;
+    height: 80px;
+    background-color: rgb(225, 224, 224);
+    margin-top: 70px;
+    margin-left: 65px;  
+    font-size: large;
+}
+
+.input2{
+    border: none;
+    width: 460px;
+    height: 80px;
+    background-color: rgb(225, 224, 224);
+    margin-top: 25px;
+    margin-left: 65px;
+    font-size: large;
+}
+
+.btn{
+    width: 460px;
+    height: 80px;
+    margin-top: 25px;
+    margin-left: 65px ;
+    border: none;
+    background-color: rgb(90, 173, 90);
+    color: #fff;
+    font-size: large;
+    text-transform: uppercase;
+}
+
+.register{
+    color: gray;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.account{
+    margin-left: 5px;
+    color: green;
+}
